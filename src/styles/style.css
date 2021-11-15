@@ -1,1 +1,48 @@
 /** CSS STYLE **/
+.bg-orange {
+  background-color: #fe8a02;
+}
+
+.bg {
+  background-image: url('../images/background.png');
+  background-color: #F5F4F0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header-title {
+  height: 525px;
+
+  background-image: url('../images/main.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: right;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.container {
+  width: 1110px;
+
+  margin: auto;
+}
+
+.text-orange {
+  color: #fe8a02;
+}
+
+.h1  {
+
+}
+
+.text-72 {
+  font-size: 72px;
+}
+
+.text-dark {
+  color: #2A2626;
+}
