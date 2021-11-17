@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 @import url('https://fonts.googleapis.com/css?family=Neucha');
 
 /** CSS STYLE **/
@@ -7,6 +6,7 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   font-family: 'Open Sans';
+  overflow-x: hidden;
 }
 
 h1,
@@ -17,6 +17,7 @@ h5,
 h6 {
   font-family: 'Neucha';
   line-height: 1.2em;
+  font-weight: 400;
 }
 
 h1 {
@@ -68,10 +69,6 @@ h3 {
   right: -270px;
 
   height: 525px;
-  width: 100%;
-
-  background-image: url('../images/main.png');
-  background-size: auto 100%;
 }
 
 .p-30 {
@@ -215,4 +212,39 @@ h3 {
 
 .blue {
   color: #1085c5;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-number {
+  padding-bottom: 40px;
+  font-family: 'Neucha';
+  line-height: 1;
+  font-size: 64px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.w-302 {
+  width: 302px;
+}
+
+.w-350 {
+  width: 350px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.text-52 {
+  font-size: 52px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
