@@ -1,9 +1,11 @@
 # HTML/CSS Boilerplate
 
+Demo: https://flowery-lead.surge.sh/
+
 ## Setup
 
 ```sh
-$ make install
+make install
 ```
 
 ## Run lint
@@ -12,6 +14,8 @@ $ make install
 make lint
 ```
 
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package)
+# Deploy
 
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package).
+```sh
+make deploy
+```

@@ -1,6 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
 /** CSS STYLE **/
-.bg-orange {
-  background-color: #fe8a02;
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: 'Open Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Neucha';
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
 }
 
 .background::before {
@@ -99,7 +127,6 @@
 
 .flex-col {
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .align-items-center {
@@ -114,10 +141,78 @@
   margin-bottom: -100px;
 }
 
-.bg-dark {
-  background-color: #2A2626;
-}
-
 .h-500 {
   height: 500px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-light {
+  background-color: #f5f4f0;
+}
+
+.bg-dark-50 {
+  background-color: #908d8b;
+}
+
+.bg-dark {
+  background-color: #2a2626;
+}
+
+.bg-brown {
+  background-color: #b09a81;
+}
+
+.bg-orange {
+  background-color: #fe8a02;
+}
+
+.bg-dark-primary {
+  background-color: #42413c;
+}
+
+.bg-white-50 {
+  background-color: #d7ccc0;
+}
+
+.bg-blue {
+  background-color: #1085c5;
+}
+
+.white {
+  color: #fff;
+}
+
+.transparent-white {
+  color: #d7ccc0;
+}
+
+.light {
+  color: #f5f4f0;
+}
+
+.primary {
+  color: #fe8a02;
+}
+
+.primary-dark {
+  color: #42413c;
+}
+
+.dark {
+  color: #2a2626;
+}
+
+.transparent-dark {
+  color: #908d8b;
+}
+
+.brown {
+  color: #b09a81;
+}
+
+.blue {
+  color: #1085c5;
 }
