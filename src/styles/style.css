@@ -248,3 +248,25 @@ h3 {
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.card:hover {
+  color: #fff;
+
+  background-color: #fe8a02;
+}
+
+.card:hover > h3 {
+  color: #fff;
+}
