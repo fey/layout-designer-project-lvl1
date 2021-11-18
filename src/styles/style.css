@@ -32,6 +32,14 @@ h3 {
   font-size: 34px;
 }
 
+.font-neucha {
+  font-family: 'Neucha';
+}
+
+.font-open-sans {
+  font-family: 'Open Sans';
+}
+
 .background::before {
   position: absolute;
   background-image: url('../images/background.png');
@@ -93,14 +101,21 @@ h3 {
   color: #fe8a02;
 }
 
-
-
 .fb-540 {
   flex-basis: 540px;
 }
 
 .text-72 {
   font-size: 72px;
+}
+
+.text-34 {
+  font-size: 34px;
+  line-height: 1.2em;
+}
+
+.text-24 {
+  font-size: 24px;
 }
 
 .text-dark {
@@ -118,7 +133,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.video {
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -257,6 +272,14 @@ h3 {
   margin-bottom: 0px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
 .text-decoration-none {
   text-decoration: none;
 }
@@ -269,4 +292,26 @@ h3 {
 
 .card:hover > h3 {
   color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
