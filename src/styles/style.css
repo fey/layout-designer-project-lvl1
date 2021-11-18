@@ -44,7 +44,7 @@ h3 {
   position: absolute;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
   content: '';
   display: block;
   height: 100%;
